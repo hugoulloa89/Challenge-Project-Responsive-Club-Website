@@ -7,14 +7,25 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  width: auto;
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  padding: 0.5rem 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+
+}
 .main {
   height: 30rem;
   padding-top: 1rem;
-  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png');
+  background-image: url('resources/1209085.jpeg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -79,7 +90,8 @@ font-size: 2.5rem;
 
 .gallery img {
   display: block;
-  width: 30%;
+  width: 450px;
+  height: 330px;
   margin: 1.5%;
   float: left;
 }
