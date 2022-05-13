@@ -85,7 +85,7 @@ li {
 }
 
 .rating h1 {
-font-size: 2.5rem;
+font-size: 4.5rem;
 }
 
 .gallery img {
@@ -103,8 +103,11 @@ font-size: 2.5rem;
 .location {
   text-align: center;
   margin-bottom: 7rem;
-  background-image: url('resources/3e74207718936f03cbf1976e38feee0e.jpeg')
-  
+  background-image: url('resources/3e74207718936f03cbf1976e38feee0e.jpeg');
+  opacity: .5;
+  height: 300px;
+  width: auto;
+  background-position: center;
 }
 
 
